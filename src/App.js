@@ -10,7 +10,7 @@ import {
   Link
 } from "react-router-dom";
 
-import { useSelector, useDispatch } from 'react-redux'
+import { useRecoilValue } from 'recoil';
 
 export default function App() {
   return (
